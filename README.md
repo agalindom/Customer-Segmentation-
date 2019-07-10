@@ -11,7 +11,7 @@ The results of the second task are submitted to an inclass kaggle competition
 # Files
 Customer_segmentation.ipynb : Jupyter notebook containing the code for the project
 
-#Libraries
+# Libraries
 
  * pandas
  * numpy
