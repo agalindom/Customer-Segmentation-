@@ -21,11 +21,9 @@ Customer_segmentation.ipynb : Jupyter notebook containing the code for the proje
 
 # Results
 ## Unsupervised Part:
-  After all the predictions were done these were the final findings regarding the two groups: Popular, refering to the characteristics of the individuals that are potential customers and Unpopular, regarding the characteristics of the people that are not potential customers.
+For my final assessment, I picked 5 features from the general population dataset to explain what are the demographic characteristics that make up both, the core customer base of the company, and the least receptive population group for the company:
 
-  * For the analysis i picked ['ANREDE_KZ','HH_EINKOMMEN_SCORE', 'OST_WEST_KZ', 'wealth_encode', 'life_stage_encode', 'MOBI_REGIO'], because i believe they could give a good assesment overall of what the target must be for the mail campaign.
-
-  * Popular
+  * Popular (characteristics of the individuals that are potential customers)
 
     - Anrede_kz: The difference between men and women is almost non existent.
     - Hh_einkommen_score: Persons with very high and high income.
@@ -34,7 +32,7 @@ Customer_segmentation.ipynb : Jupyter notebook containing the code for the proje
     - life_stage_encode : Mature to elder couples.
     - Mobi_regio : Very little to no movement.
 
-  * Unpopular
+  * Unpopular (characteristics of the individuals that are not potential customers)
 
     - Anrede_kz(gender): Women.
     - Hh_einkommen_score(household net income): People with average and low income.
