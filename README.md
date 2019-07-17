@@ -27,20 +27,21 @@ Customer_segmentation.ipynb : Jupyter notebook containing the code for the proje
 
   * Popular
 
-  Anrede_kz: The difference between men and women is almost non existent.
-  Hh_einkommen_score: Persons with very high and high income.
-  Ost_west_kz: People from the west.
-  Wealth_encode: Wealthy and prosperous households.
-  life_stage_encode : Mature to elder couples.
-  Mobi_regio : Very little to no movement.
-  Unpopular
+  + Anrede_kz: The difference between men and women is almost non existent.
+  + Hh_einkommen_score: Persons with very high and high income.
+  + Ost_west_kz: People from the west.
+  - Wealth_encode: Wealthy and prosperous households.
+  - life_stage_encode : Mature to elder couples.
+  - Mobi_regio : Very little to no movement.
 
-  Anrede_kz(gender): Women.
-  Hh_einkommen_score(household net income): People with average and low income.
-  Ost_west_kz: West living people.
-  wealth_encode: Poorer and less affluent households.
-  life_stage_encode : Pre-Family Couples & Singles.
-  Mobi_regio : High movility and very high movility.
+  * Unpopular
+
+  - Anrede_kz(gender): Women.
+  - Hh_einkommen_score(household net income): People with average and low income.
+  - Ost_west_kz: West living people.
+  - wealth_encode: Poorer and less affluent households.
+  - life_stage_encode : Pre-Family Couples & Singles.
+  - Mobi_regio : High movility and very high movility.
 
   * Conclusion:
 
